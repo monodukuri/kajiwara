@@ -15,11 +15,11 @@ C:/Users/yukiy/Desktop/kajiwara
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58951
+65329
 Successfully changed project path to: C:/Users/yukiy/Desktop/kajiwara
 C:/Users/yukiy/Desktop/kajiwara
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -30,77 +30,806 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   
     VRAM:     5980 MB
-    Driver:   27.21.14.6089
+    Driver:   30.0.14.7141
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002288 seconds.
+Registered in 0.002030 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.671 seconds
+- Completed reload, in  1.477 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001328 seconds.
+Registered in 0.001250 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
+- Completed reload, in  0.717 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1168 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 62.1 MB.
-System memory in use after: 62.1 MB.
+System memory in use after: 62.2 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 1.420500 ms (FindLiveObjects: 0.147500 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.155400 ms  DeleteObjects: 0.075200 ms)
+Total: 1.932100 ms (FindLiveObjects: 0.260500 ms CreateObjectMapping: 0.084000 ms MarkObjects: 1.501600 ms  DeleteObjects: 0.085100 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Team2Game/main.unity
   artifactKey: Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Team2Game/main.unity using Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f938b3eb92dbd8ec696675e04e43880') in 0.017491 seconds
-  Import took 0.019277 seconds .
+Start importing Assets/Team2Game/main.unity using Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8505449be6240208b364dffeade91b') in 0.015345 seconds
+  Import took 0.018626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1389.647835 seconds.
+  path: Assets/Team2Game/main.unity
+  artifactKey: Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team2Game/main.unity using Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a54ad5ce0f5fbc0dd098a7d5e8b164') in 0.003956 seconds
+  Import took 0.009964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.313153 seconds.
+  path: Assets/HorrorEyes/HE Project/Scripts/Editor
+  artifactKey: Guid(4fcdd1d46ab45214483b5497655e3163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Scripts/Editor using Guid(4fcdd1d46ab45214483b5497655e3163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eefb5bc5dfa4916d15dd32c4b4b6991') in 0.012427 seconds
+  Import took 0.014701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.631878 seconds.
+  path: Assets/HorrorEyes/HE Project/Scripts/Enemy
+  artifactKey: Guid(8a31ba5a772d0ea47a8eb16a4f61fdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Scripts/Enemy using Guid(8a31ba5a772d0ea47a8eb16a4f61fdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f5fc0ed75c178843f2567b890aacbb') in 0.021587 seconds
+  Import took 0.024111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.513147 seconds.
+  path: Assets/HorrorEyes/HE Project/Scripts/General
+  artifactKey: Guid(f1d0adb35d0dcec448a67f6c6398a49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Scripts/General using Guid(f1d0adb35d0dcec448a67f6c6398a49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b338451a5ae6e18de72c6867981ba937') in 0.004977 seconds
+  Import took 0.007763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.952484 seconds.
+  path: Assets/HorrorEyes/HE Project/Scripts/Helpers
+  artifactKey: Guid(0f3096e90a634494f8f7ccbc12922346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Scripts/Helpers using Guid(0f3096e90a634494f8f7ccbc12922346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf591601815b3ba09319ce991f9bead7') in 0.009538 seconds
+  Import took 0.012199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.965299 seconds.
+  path: Assets/HorrorEyes/HE Project/Scripts/Interact
+  artifactKey: Guid(a956a369c63d1aa4891ad88a004a1c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Scripts/Interact using Guid(a956a369c63d1aa4891ad88a004a1c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2531887a3791eb65e0dfa360d514a504') in 0.008917 seconds
+  Import took 0.011025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.095444 seconds.
+  path: Assets/HorrorEyes/HE Project/Scripts/Mobile
+  artifactKey: Guid(b7cf5880548114b4aa2201c7b0c3de7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Scripts/Mobile using Guid(b7cf5880548114b4aa2201c7b0c3de7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3031b56ef6451bc95118678a863cff0') in 0.008281 seconds
+  Import took 0.010630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.152297 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/TP_Player
+  artifactKey: Guid(2ecf3d5869e0ffd44b4053270b52c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/TP_Player using Guid(2ecf3d5869e0ffd44b4053270b52c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047754d3b9f81a05f5c354ca20c4c0eb') in 0.009140 seconds
+  Import took 0.011508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.714645 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/UI
+  artifactKey: Guid(ad8087083a3a4e2478e6ceb0b09924aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/UI using Guid(ad8087083a3a4e2478e6ceb0b09924aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62abeb7411f10b4a0cabde65df550beb') in 0.007710 seconds
+  Import took 0.009961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.084283 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Camera
+  artifactKey: Guid(d43c6a778df59384fbfc8542a82d6134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Camera using Guid(d43c6a778df59384fbfc8542a82d6134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d5c102e184cfd108310e404228180d') in 0.003115 seconds
+  Import took 0.007307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.689384 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Characters
+  artifactKey: Guid(ce55330055556f94bb297d6e4890332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Characters using Guid(ce55330055556f94bb297d6e4890332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1f0f66f26d8d370311634cdd46219b') in 0.008048 seconds
+  Import took 0.010212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.247940 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Characters/Monster
+  artifactKey: Guid(fba3f31fe2e98fb449799f2bbe177224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Characters/Monster using Guid(fba3f31fe2e98fb449799f2bbe177224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1edf18cac3bbd3307218eea433f5441') in 0.008640 seconds
+  Import took 0.010951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048933 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Cannibal_EatCorpseHead.FBX
+  artifactKey: Guid(371a0944a71edf6469ce26d33d6dfeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Cannibal_EatCorpseHead.FBX using Guid(371a0944a71edf6469ce26d33d6dfeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4675df954f71d20468695b17f5dfc643') in 0.107253 seconds
+  Import took 0.110358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Monster_Idle.FBX
+  artifactKey: Guid(293df576a0bbefd4384fb2ddf9298ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Monster_Idle.FBX using Guid(293df576a0bbefd4384fb2ddf9298ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af4a240d6a2f2c1d04539f86e2e7a06') in 0.024496 seconds
+  Import took 0.026763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Characters/Monster/DeadWoman_Kill.FBX
+  artifactKey: Guid(492949c74f72c174792e570fb4c2853c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Characters/Monster/DeadWoman_Kill.FBX using Guid(492949c74f72c174792e570fb4c2853c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dc18f27c3ad06f8e6c63ebeba416d1') in 0.008967 seconds
+  Import took 0.011402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Cannibal_InteractWithSMTH.FBX
+  artifactKey: Guid(cecc6c501713479469d2ef52af2038fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Cannibal_InteractWithSMTH.FBX using Guid(cecc6c501713479469d2ef52af2038fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9780ab3555babbfa60628fdfe8aff1') in 0.007350 seconds
+  Import took 0.009869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Cannibal_Move.FBX
+  artifactKey: Guid(65e8787267d009e49bbbce9c385295fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Cannibal_Move.FBX using Guid(65e8787267d009e49bbbce9c385295fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83d7552b56fd57a7995bdf935fb49c7') in 0.008306 seconds
+  Import took 0.010945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Cannibal_Kill.FBX
+  artifactKey: Guid(125b497bea60c72488ee718e706aa9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Characters/Monster/Cannibal_Kill.FBX using Guid(125b497bea60c72488ee718e706aa9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9073dac053bfb605913243635eb7a8') in 0.009366 seconds
+  Import took 0.012320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.334103 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Props
+  artifactKey: Guid(c9c0a1c09452fe5448c432d4aa3be8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Props using Guid(c9c0a1c09452fe5448c432d4aa3be8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea761a138ee9b33c0ac3c0d29f1da14a') in 0.008133 seconds
+  Import took 0.010731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572470 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Interact
+  artifactKey: Guid(e97d96efb00e4d046861ee2828ccd27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Interact using Guid(e97d96efb00e4d046861ee2828ccd27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676d820e12a5024e7ea82f63801db28f') in 0.004288 seconds
+  Import took 0.007169 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001317 seconds.
+Registered in 0.001166 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
+- Completed reload, in  0.665 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.9 MB.
-System memory in use after: 62.0 MB.
+System memory in use before: 62.1 MB.
+System memory in use after: 62.2 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.474300 ms (FindLiveObjects: 0.157600 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.212800 ms  DeleteObjects: 0.055200 ms)
+Total: 1.447900 ms (FindLiveObjects: 0.143000 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.203700 ms  DeleteObjects: 0.062500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.832367 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI
+  artifactKey: Guid(e1403c515a6f4a142868625cb873baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI using Guid(e1403c515a6f4a142868625cb873baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b69228f0662f1d265aa413d14b1f72') in 0.007418 seconds
+  Import took 0.013588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.353625 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/MobileControll
+  artifactKey: Guid(02798024b68dc4e4bab62aa529de7079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/MobileControll using Guid(02798024b68dc4e4bab62aa529de7079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc97c072b67a7e22a9f63b7ab9b37359') in 0.008043 seconds
+  Import took 0.009895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669332 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Items
+  artifactKey: Guid(99439ee7dec0e7742b5ced04a92e6817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Items using Guid(99439ee7dec0e7742b5ced04a92e6817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3a24c9bc89a0defc0352915521b092') in 0.007258 seconds
+  Import took 0.009745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378490 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements
+  artifactKey: Guid(a6d88893175cf7f499ebeeb479e57858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements using Guid(a6d88893175cf7f499ebeeb479e57858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3e4e7d4fd3eb8ef5e92c311c36007b') in 0.004751 seconds
+  Import took 0.006859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.539795 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/black_BG.png
+  artifactKey: Guid(a1032f645ef2b314a86414f5bedcd7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/black_BG.png using Guid(a1032f645ef2b314a86414f5bedcd7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9c1a053515179b778f87ca72139436') in 0.087611 seconds
+  Import took 0.090123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/black_BG2.png
+  artifactKey: Guid(97e7d829003f23d43b8957a3679bf38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/black_BG2.png using Guid(97e7d829003f23d43b8957a3679bf38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc050b401f9444649c9fa1559319f0e') in 0.020626 seconds
+  Import took 0.022977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/eyeUI.png
+  artifactKey: Guid(7c82f8ef057a2b642b56fad018c02807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/eyeUI.png using Guid(7c82f8ef057a2b642b56fad018c02807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89c81e3f8ae4db43d7f5e7cce9c6308') in 0.012306 seconds
+  Import took 0.014588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/button01.png
+  artifactKey: Guid(3c282b39cdd8a7342b8a1fd413c67050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/button01.png using Guid(3c282b39cdd8a7342b8a1fd413c67050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eb6cac53766a7967f47b54d8184cb2') in 0.024339 seconds
+  Import took 0.026948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/inventory_PanelBG.png
+  artifactKey: Guid(3458b5290eecd1f418ba5ed778614c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/inventory_PanelBG.png using Guid(3458b5290eecd1f418ba5ed778614c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99688b33b8abaaae73d90cab1e92f6cd') in 0.014635 seconds
+  Import took 0.016942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/FillBar.png
+  artifactKey: Guid(97ef2f363fe980b478008317b49d0366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/FillBar.png using Guid(97ef2f363fe980b478008317b49d0366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6439eae5c5e6c6d821a7c446786c4b97') in 0.008596 seconds
+  Import took 0.010770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/blackTrail.png
+  artifactKey: Guid(770c141b67bc79042bc62dd373743662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/blackTrail.png using Guid(770c141b67bc79042bc62dd373743662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd708347cbe193ba0590e541784e78934') in 0.010770 seconds
+  Import took 0.013065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/gameIconEye.png
+  artifactKey: Guid(f20f5d499b12ed74491bbb23fd07ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/gameIconEye.png using Guid(f20f5d499b12ed74491bbb23fd07ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef131355387768156f09dd0ca7124d1d') in 0.023646 seconds
+  Import took 0.025798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/XP_Coin.png
+  artifactKey: Guid(340e202356d889640b964165c2471676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/XP_Coin.png using Guid(340e202356d889640b964165c2471676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6a35bb71d8351b4a378dbb54804106') in 0.013181 seconds
+  Import took 0.015164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/buyIcon.png
+  artifactKey: Guid(77a90c3bfa348834bad071448bc0e9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/buyIcon.png using Guid(77a90c3bfa348834bad071448bc0e9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88af10fafeb34111bffd0b52b05368b') in 0.012426 seconds
+  Import took 0.014657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/button_BG.png
+  artifactKey: Guid(e2db43188856a014dbc57d46cf6811fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/button_BG.png using Guid(e2db43188856a014dbc57d46cf6811fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d00061339ab54897c2016ad72c97717') in 0.039213 seconds
+  Import took 0.040942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/button02.png
+  artifactKey: Guid(edee55f2163460d439eadf709952aa95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/button02.png using Guid(edee55f2163460d439eadf709952aa95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad4124f33e63609c68b8f0765f62d0c') in 0.030500 seconds
+  Import took 0.032837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Elements/lockedIcon.png
+  artifactKey: Guid(da5bb113363aebc4286529f917f4f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Elements/lockedIcon.png using Guid(da5bb113363aebc4286529f917f4f22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aace7303f3ddc98725958356d0427486') in 0.011912 seconds
+  Import took 0.013907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.041468 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Player
+  artifactKey: Guid(0582495c41a5e0d488482fc253b4b45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Player using Guid(0582495c41a5e0d488482fc253b4b45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dd68961d9f3e7be2d101289aba71ac') in 0.007884 seconds
+  Import took 0.010374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039055 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/UI/Player/DamageScreen.png
+  artifactKey: Guid(ac72b06629fd58142922027829c736f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/UI/Player/DamageScreen.png using Guid(ac72b06629fd58142922027829c736f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da7b6d819ace03e6badcfa3ca5dbde8') in 0.014798 seconds
+  Import took 0.017227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.541677 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items
+  artifactKey: Guid(062107af38cbf134fa9a5b94c5550204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items using Guid(062107af38cbf134fa9a5b94c5550204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b3471ca52d635e798f9c8f37f95ab0') in 0.008799 seconds
+  Import took 0.010646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048651 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Cutter_D.png
+  artifactKey: Guid(e8881e2b5cb3b87458d6063bfe728961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Cutter_D.png using Guid(e8881e2b5cb3b87458d6063bfe728961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f6784f46798678a14bf8bb1e23e3c5') in 0.014923 seconds
+  Import took 0.017082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Items_N.png
+  artifactKey: Guid(f9b26b76417a9e4408ff921f68c24835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Items_N.png using Guid(f9b26b76417a9e4408ff921f68c24835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70919922b504479ddd1e293d15a2197') in 0.028800 seconds
+  Import took 0.030996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Pills_S.png
+  artifactKey: Guid(93a5728a988d16c47ae52725a68157da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Pills_S.png using Guid(93a5728a988d16c47ae52725a68157da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786b5d06d83a3c4dd644f92bdb2db2f4') in 0.018986 seconds
+  Import took 0.021071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Knife_MetallicSmoothness.png
+  artifactKey: Guid(9c37c4bae5405b444bf37a292d972039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Knife_MetallicSmoothness.png using Guid(9c37c4bae5405b444bf37a292d972039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874cf5cd4a8fe5fe4f094eae14cb3b8c') in 0.012208 seconds
+  Import took 0.014360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Cutter_N.png
+  artifactKey: Guid(0cc60005be9e2504d99da066fde84214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Cutter_N.png using Guid(0cc60005be9e2504d99da066fde84214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57055ac6007f8ba1e9f8c0e71a988390') in 0.017827 seconds
+  Import took 0.019813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Knife_AlbedoTransparency.png
+  artifactKey: Guid(8e83ade3db6f4b94db0f8691332f1662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Knife_AlbedoTransparency.png using Guid(8e83ade3db6f4b94db0f8691332f1662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c41b682879a8a55e7360c9b1a64a2fe') in 0.015317 seconds
+  Import took 0.017376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Pills_N.png
+  artifactKey: Guid(702e3bdc86f82cd45a6fd7faf86e1780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Pills_N.png using Guid(702e3bdc86f82cd45a6fd7faf86e1780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97eb5f0fa27449c60cfabc4b209ea4') in 0.017666 seconds
+  Import took 0.019590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Cutter_MS.png
+  artifactKey: Guid(072fc4e2b0dc2744aafbfb08c1569358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Cutter_MS.png using Guid(072fc4e2b0dc2744aafbfb08c1569358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f24a830e3b118027f41353f466a62f') in 0.012932 seconds
+  Import took 0.014931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Items_D.png
+  artifactKey: Guid(fef6081b636840846b9663c91494c32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Items_D.png using Guid(fef6081b636840846b9663c91494c32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4640a63b559b0e196042082260d1a72a') in 0.019744 seconds
+  Import took 0.021906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/DetailFuse_D.png
+  artifactKey: Guid(e6831c01e7a68d940ad327ac06e79004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/DetailFuse_D.png using Guid(e6831c01e7a68d940ad327ac06e79004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e28f343c70c186cb46cf9e6c76fc71') in 0.011543 seconds
+  Import took 0.013917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Items_S.png
+  artifactKey: Guid(e5b22c7322441fd4b8a6300c00813b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Items_S.png using Guid(e5b22c7322441fd4b8a6300c00813b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a12e0bbba9b0723eabd243f4b6b2181') in 0.023335 seconds
+  Import took 0.025510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Pills_Color.png
+  artifactKey: Guid(8befc966c9ee8ea459aee30afa564971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Pills_Color.png using Guid(8befc966c9ee8ea459aee30afa564971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a702c401c5f31ddda151be561bb4a08') in 0.019540 seconds
+  Import took 0.022083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/HorrorEyes/HE Project/Textures/Items/Knife_Normal.png
+  artifactKey: Guid(69c5c2cb68a4a3d43a69a8d848bd35d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Textures/Items/Knife_Normal.png using Guid(69c5c2cb68a4a3d43a69a8d848bd35d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d3d8f7fa3006c0999604ff4250dedd') in 0.009565 seconds
+  Import took 0.011585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.493071 seconds.
+  path: Assets/Team2Game/main.unity
+  artifactKey: Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team2Game/main.unity using Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d712ab288d71f9331d084314af41742') in 0.004706 seconds
+  Import took 0.010258 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 1.606400 ms (FindLiveObjects: 0.162100 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.348900 ms  DeleteObjects: 0.059600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 1.416100 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.188000 ms  DeleteObjects: 0.052700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001234 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 1.452600 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.199200 ms  DeleteObjects: 0.052300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 566.803898 seconds.
+  path: Assets/Team2Game/main.unity
+  artifactKey: Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team2Game/main.unity using Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128d52163bf2f6b2239bc2d2ea411d02') in 0.014049 seconds
+  Import took 0.020831 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 1.472400 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.154300 ms  DeleteObjects: 0.051700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.744510 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures
+  artifactKey: Guid(636c9e6626b4d7641b6717f0815f26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures using Guid(636c9e6626b4d7641b6717f0815f26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55746ce771cab5591e7bc26e985f8863') in 0.006311 seconds
+  Import took 0.011854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079089 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture01.mat
+  artifactKey: Guid(ebec8b71dfd20d848bb95e597a7f8f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture01.mat using Guid(ebec8b71dfd20d848bb95e597a7f8f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeb1c287a80fac4194936c1f67f57ef') in 0.078048 seconds
+  Import took 0.079979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture07_D.mat
+  artifactKey: Guid(dd5ee1e3375ab9f4d956b319f769d060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture07_D.mat using Guid(dd5ee1e3375ab9f4d956b319f769d060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf6f74e8f61a106d8a81b9623bbfd00') in 0.018756 seconds
+  Import took 0.020684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture010_D.mat
+  artifactKey: Guid(87b6cdc6c7f832b4290e6e45e7462ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture010_D.mat using Guid(87b6cdc6c7f832b4290e6e45e7462ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075c4ae7a0664fe5824ef550e7ee2b28') in 0.012717 seconds
+  Import took 0.014818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture011_D.mat
+  artifactKey: Guid(199b21fd2ed908649a901d46966f6fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture011_D.mat using Guid(199b21fd2ed908649a901d46966f6fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526ae60a4a5ead3bc7d51124c67e61aa') in 0.013545 seconds
+  Import took 0.015844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture06_D.mat
+  artifactKey: Guid(8629078467bde9c468a058d2ead94d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture06_D.mat using Guid(8629078467bde9c468a058d2ead94d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc1ff9e371b288920e453778b9909e9') in 0.034456 seconds
+  Import took 0.036878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture04.mat
+  artifactKey: Guid(3ac748913376bb34fba354ed77285627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture04.mat using Guid(3ac748913376bb34fba354ed77285627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e04af0570c85a2f340d0dc48a88f64c') in 0.015528 seconds
+  Import took 0.018542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture03.mat
+  artifactKey: Guid(6847eda42307c224db1c296337e9918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture03.mat using Guid(6847eda42307c224db1c296337e9918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61c6d0da696461bca8e9bbf00fd587d') in 0.022559 seconds
+  Import took 0.024501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture02.mat
+  artifactKey: Guid(2d0370c4889eb644a820d80f4aabc9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture02.mat using Guid(2d0370c4889eb644a820d80f4aabc9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a764e65d6491acc78be24def64e5f774') in 0.012174 seconds
+  Import took 0.014273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture08_D.mat
+  artifactKey: Guid(bfd052f42c8f3e7438743a0875e6f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture08_D.mat using Guid(bfd052f42c8f3e7438743a0875e6f8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906d3c5c894fc70641ecdc2e8b64cef5') in 0.053053 seconds
+  Import took 0.055789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture05.mat
+  artifactKey: Guid(9d33b35080c7dd1438c7b47f97b8849d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture05.mat using Guid(9d33b35080c7dd1438c7b47f97b8849d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3c747b2578adb4f0105ac3309a98a4') in 0.018222 seconds
+  Import took 0.020865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture09_D.mat
+  artifactKey: Guid(6ff95d16bcf71254bab193aefc340f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture09_D.mat using Guid(6ff95d16bcf71254bab193aefc340f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e19e2d656d4f4f6002cf983ab55843') in 0.020697 seconds
+  Import took 0.023227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture05.mat
+  artifactKey: Guid(9d33b35080c7dd1438c7b47f97b8849d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/PaperPicture05.mat using Guid(9d33b35080c7dd1438c7b47f97b8849d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3c747b2578adb4f0105ac3309a98a4') in 0.020457 seconds
+  Import took 0.022503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture09_D.mat
+  artifactKey: Guid(6ff95d16bcf71254bab193aefc340f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Items/Pictures/Picture09_D.mat using Guid(6ff95d16bcf71254bab193aefc340f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e19e2d656d4f4f6002cf983ab55843') in 0.013673 seconds
+  Import took 0.016061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.379062 seconds.
+  path: Assets/HorrorEyes/HE Project/Models/Items/Cutter
+  artifactKey: Guid(121bc06f7eac1fa4e9ec0ffd28ae2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Models/Items/Cutter using Guid(121bc06f7eac1fa4e9ec0ffd28ae2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144d4fe1262db6e89979e9293ee71887') in 0.005151 seconds
+  Import took 0.010936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064390 seconds.
+  path: Assets/HorrorEyes/HE Project/Models/Items/Cutter/Cutter.FBX
+  artifactKey: Guid(19c6078bd9cd85d4eafaf2b69db7e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Models/Items/Cutter/Cutter.FBX using Guid(19c6078bd9cd85d4eafaf2b69db7e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f1b5d0356b762901cdeee8b7baeb3c') in 0.056010 seconds
+  Import took 0.058211 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 1.654000 ms (FindLiveObjects: 0.209600 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.329100 ms  DeleteObjects: 0.053400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001045 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 1.533100 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.054600 ms MarkObjects: 1.209500 ms  DeleteObjects: 0.055400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 1.364500 ms (FindLiveObjects: 0.148000 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.132600 ms  DeleteObjects: 0.048400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

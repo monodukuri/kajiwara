@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 120
+  controlID: 156
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 74
+  controlID: 103
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 75
+  controlID: 104
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -345,22 +345,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/HorrorEyes/HE Project/AnimatorController
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/HorrorEyes/HE Project/AnimatorController
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\yukiy\Desktop\kajiwara
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f63c0000
-    m_LastClickedID: 15606
-    m_ExpandedIDs: 00000000f63c0000f83c0000fa3c0000fc3c0000fe3c0000003d000000ca9a3b
+    scrollPos: {x: 0, y: 239}
+    m_SelectedIDs: 6a590000
+    m_LastClickedID: 22890
+    m_ExpandedIDs: 0000000056590000585900005a5900005c5900005e59000060590000685900007059000072590000785900008059000082590000885900002c5a0000105b0000f05b00001a8c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -388,7 +388,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f63c0000f83c0000fa3c0000fc3c0000fe3c0000003d0000
+    m_ExpandedIDs: 0000000056590000585900005a5900005c5900005e59000060590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,9 +511,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ca3a0000
-      m_LastClickedID: 15050
-      m_ExpandedIDs: 3cfbffff44fbffff52fbffffca3a0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 4e78ffff4282ffffae82ffffbe82ffffc882ffffd282ffffbe8dffff0695ffff04a0ffff12a0ffff70a0ffff80a0ffff8aa0ffff94a0ffffbca8ffff80abffffc4b1ffff80c7ffff6ec9ffffe8deffffe6e2fffface5ffff52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -574,9 +574,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.055444, y: 4.535758, z: 0.5180683}
+    m_Target: {x: -17.503025, y: 3.2560854, z: 6.9339256}
     speed: 2
-    m_Value: {x: -4.055444, y: 4.535758, z: 0.5180683}
+    m_Value: {x: -17.503025, y: 3.2560854, z: 6.9339256}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -623,13 +623,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.029388864, y: 0.039337274, z: -0.0008925482, w: 0.9987713}
+    m_Target: {x: 0.03265098, y: 0.27557772, z: -0.009113256, w: 0.96064055}
     speed: 2
-    m_Value: {x: 0.029390816, y: 0.037839904, z: -0.0008484826, w: 0.9988512}
+    m_Value: {x: 0.032652248, y: 0.2755884, z: -0.009113609, w: 0.96067774}
   m_Size:
-    m_Target: 2.6668859
+    m_Target: 2.9655821
     speed: 2
-    m_Value: 2.7925506
+    m_Value: 2.9655821
   m_Ortho:
     m_Target: 1
     speed: 2
