@@ -1,0 +1,180 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ja' Physical Memory: 16232 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/yukiy/Desktop/kajiwara
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49824
+Successfully changed project path to: C:/Users/yukiy/Desktop/kajiwara
+C:/Users/yukiy/Desktop/kajiwara
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yukiy/Desktop/kajiwara/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002093 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.2 MB.
+System memory in use after: 62.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.765300 ms (FindLiveObjects: 0.164200 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.410700 ms  DeleteObjects: 0.119300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Team2Game/main.unity
+  artifactKey: Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team2Game/main.unity using Guid(282067a235beac449992312fbc30a998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bcb6060617e5004c161f9bb5f671dc') in 0.011502 seconds
+  Import took 0.013451 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.9 MB.
+System memory in use after: 38.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.936200 ms (FindLiveObjects: 0.149300 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.688700 ms  DeleteObjects: 0.056600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 2.453700 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.099500 ms MarkObjects: 1.952600 ms  DeleteObjects: 0.069400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 439.246464 seconds.
+  path: Assets/HorrorEyes/HE Project/Materials/Characters/DeadWoman
+  artifactKey: Guid(3dc911cf6d4815c429a94d790fbfa1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Materials/Characters/DeadWoman using Guid(3dc911cf6d4815c429a94d790fbfa1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2295f24e1d96790b20b75336e98cc292') in 0.013007 seconds
+  Import took 0.015090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.041058 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Interact/DeadBody
+  artifactKey: Guid(181b49498cf93dd4a8c1159853c1e39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Interact/DeadBody using Guid(181b49498cf93dd4a8c1159853c1e39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc65fc3b9037a4d723e4d9f967af1ce') in 0.006948 seconds
+  Import took 0.009025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.045103 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Interact/DeadBody/BodyCorpse_CutSeams.anim
+  artifactKey: Guid(dc4f9ba325f51aa458da62061b2dcff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Interact/DeadBody/BodyCorpse_CutSeams.anim using Guid(dc4f9ba325f51aa458da62061b2dcff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0440f83095ed8eb405f9401e90410c') in 0.036420 seconds
+  Import took 0.038175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.921059 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Interact/DeadBody/BodyCorpse_Idle.anim
+  artifactKey: Guid(e92931027adf6304db83ee107b6022cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Interact/DeadBody/BodyCorpse_Idle.anim using Guid(e92931027adf6304db83ee107b6022cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126eb675e8e534020061f706aad7d0fd') in 0.005705 seconds
+  Import took 0.007590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/HorrorEyes/HE Project/Animation/Interact/DeadBody/BodyCorpse_Idle.anim
+  artifactKey: Guid(e92931027adf6304db83ee107b6022cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorEyes/HE Project/Animation/Interact/DeadBody/BodyCorpse_Idle.anim using Guid(e92931027adf6304db83ee107b6022cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126eb675e8e534020061f706aad7d0fd') in 0.005381 seconds
+  Import took 0.007145 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.810 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.0 MB.
+System memory in use after: 62.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 1.708400 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.419200 ms  DeleteObjects: 0.083800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 17
+  controlID: 86
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -345,22 +345,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Concrete textures pack/pattern 02
+    - Assets/HorrorEyes/HE Project
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Concrete textures pack/pattern 02
+  - Assets/HorrorEyes/HE Project
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\yukiy\Desktop\kajiwara
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98460000
-    m_LastClickedID: 18072
-    m_ExpandedIDs: 00000000584600005a4600005c4600005e46000060460000624600006646000000ca9a3b
+    scrollPos: {x: 0, y: 271}
+    m_SelectedIDs: 60460000
+    m_LastClickedID: 18016
+    m_ExpandedIDs: 00000000584600005a4600005c4600005e46000060460000624600006a4600006e46000076460000ca5a0000cc5a0000025b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -513,7 +513,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 52fbffff
+      m_ExpandedIDs: 2ce8ffffb4efffff52fbfffff4500000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -574,9 +574,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.6730175, y: 4.0739903, z: 43.63311}
+    m_Target: {x: 4.3996, y: 3.3464365, z: 44.370655}
     speed: 2
-    m_Value: {x: 2.6730175, y: 4.0739903, z: 43.63311}
+    m_Value: {x: 4.3996, y: 3.3464365, z: 44.370655}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -599,10 +599,10 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -615,7 +615,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -623,13 +623,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.026568102, y: 0.6661569, z: -0.023391984, w: 0.7448502}
+    m_Target: {x: 0.13653845, y: 0.12064137, z: -0.016754773, w: 0.9831198}
     speed: 2
-    m_Value: {x: 0.026568104, y: 0.6661569, z: -0.023391984, w: 0.7448503}
+    m_Value: {x: 0.13803805, y: 0.11914146, z: -0.016728658, w: 0.98309255}
   m_Size:
-    m_Target: 8.382319
+    m_Target: 8.183281
     speed: 2
-    m_Value: 8.382319
+    m_Value: 7.8308907
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -651,7 +651,7 @@ MonoBehaviour:
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
-  m_SceneVisActive: 0
+  m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
 --- !u!114 &17
@@ -703,8 +703,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -486.5
     m_HBaseRangeMax: 486.5
-    m_VBaseRangeMin: -202
-    m_VBaseRangeMax: 202
+    m_VBaseRangeMin: -191.5
+    m_VBaseRangeMax: 191.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -721,11 +721,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 973
-      height: 404
+      height: 383
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 486.5, y: 202}
+    m_Translation: {x: 486.5, y: 191.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -733,9 +733,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -486.5
-      y: -202
+      y: -191.5
       width: 973
-      height: 404
+      height: 383
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 973, y: 404}
